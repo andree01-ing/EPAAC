@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="C:\Users\andre\OneDrive\Documentos\IngSoft\WEB\Imágenes\LogoEPAACicon.png">
+    <link href="C:\Users\andre\OneDrive\Documentos\IngSoft\WEB\Assets\zing.rust-demo-base.otf" rel="stylesheet">
+    <link rel="stylesheet" href="registro.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <body bgcolor="#1f1d42"></body>
+    <img src="C:\Users\andre\OneDrive\Documentos\IngSoft\WEB\Imágenes\niños.png" style="position: absolute; top: 0; right: 0;" />
+    <header>
+        <span class="es">Español</span>
+            <input type="checkbox" class="check" checked>
+            <span class="en">English</span>
+        <section>
+            <div class="contenidoEncabezado">
+                <div align="center"><img src="C:\Users\andre\OneDrive\Documentos\IngSoft\WEB\Imágenes\letras.png"></div>
+                <p>Registro de Actividad</p>
+            </div>
+        </section>
+    </header>
+
+        <section class="container">
+          <header>Formato de Registro</header>
+          <form action="#" class="form">
+            <div class="input-box">
+              <label>Nombre Completo</label>
+              <input type="text" placeholder="" required />
+            </div>
+    
+            <div class="input-box">
+              <label>Correo Electrónico</label>
+              <input type="text" placeholder="Correo Institucional" required />
+            </div>
+    
+            <div class="column">
+              <div class="input-box">
+                <label>No. de Control</label>
+                <input type="number" placeholder="No. de Control" required />
+              </div>
+                <div class="select-box">
+                    <select>
+                    <option hidden>Semestre</option>
+                    <option>1°</option>
+                    <option>2°</option>
+                    <option>3°</option>
+                    <option>4°</option>
+                    <option>5°</option>
+                    <option>6°</option>
+                    <option>7°</option>
+                    <option>8°</option>
+                    </select>
+                    <label>Semestre Actual</label>
+                </div>
+            </div>
+            <div class="gender-box">
+              <h3>Género</h3>
+              <div class="gender-option">
+                <div class="gender">
+                  <input type="radio" id="check-male" name="gender" checked />
+                  <label for="check-male">Masculino</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-female" name="gender" />
+                  <label for="check-female">Femenino</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="check-other" name="gender" />
+                  <label for="check-other">Prefiero no decir</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-box address">
+              <label>Datos de Taller</label>
+              <input type="text" placeholder="Enter street address" required />
+              <input type="text" placeholder="Enter street address line 2" required />
+              <div class="column">
+                <div class="select-box">
+                  <select>
+                    <option hidden>Elige Tu Actividad</option>
+                    <option>Soccer</option>
+                    <option>Basketball</option>
+                    <option>Volleyball</option>
+                    <option>Natación</option>
+                  </select>
+                </div>
+                <input type="text" placeholder="Horario" required />
+              </div>
+              <div class="column">
+                <input type="text" placeholder="Enter your region" required />
+                <input type="number" placeholder="Enter postal code" required />
+              </div>
+            </div>
+            <button>Registrarse</button>
+          </form>
+        </section>
+      </body>
+    </html>
